@@ -5,6 +5,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@webpack-cli/serve": "^1.1.0",
     "chart.js": "^2.9.4",
     "primeflex": "^2.0.0",
     "primeicons": "^4.0.0",
