@@ -11,7 +11,7 @@ const prodConfig = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: 'dashboard/',
+      name: 'dashboard',
       filename: 'remoteEntry.js',
       exposes: {
         './Dashboard/App': './src/bootstrap',
